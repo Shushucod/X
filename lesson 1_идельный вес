@@ -1,0 +1,9 @@
+puts "Введите свое имя"
+variable_name = gets.chomp
+puts "# { variable_name } ,введите свой рост"
+variable_rost = gets.chomp
+if [variable_rost-110]*1,15 > 0
+puts " # { variable_name }, ваш идельный вес # { [variable_rost-110]*1,15 }"
+elsif [variable_rost-110]*1,15 < 0
+puts "# { variable_name },ваш вес уже оптимальный"
+end
